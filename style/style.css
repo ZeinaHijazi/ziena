@@ -1,0 +1,23 @@
+div{
+font-size:50px;
+}
+#div-1{
+    font-size: 100px; width: 25%;
+}
+.div-class{
+    font-size: 150px; width: 25%;
+}
+section{
+    padding: 12px;
+    height: 100px;
+}
+#section-1{
+    background-color: blueviolet;
+}
+.section-2{
+    background-color: aqua;
+}
+#section-3{
+    background-color: black;
+    color: aliceblue;
+}
