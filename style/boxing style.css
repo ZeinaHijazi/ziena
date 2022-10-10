@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.div-1{
+    background-color: rgb(255, 173, 80);
+    font-size: 100px;
+    width: 100px;
+    height: 50px;
+    overflow: auto;
+}
+.div-2{
+    background-color: rgb(255, 141, 80);
+    font-size: 82px;
+    width:min-content;
+
+}
