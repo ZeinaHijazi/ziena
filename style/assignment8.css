@@ -60,7 +60,7 @@ body{
     height: 150px;
    flex-grow: 1;
    flex-shrink: 1;
-   flex-basis: 200px;
+   flex-basis: 100px;
 }
 
 
