@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
 }
@@ -10,12 +14,16 @@ body{
 .layout > .side-nav{
     padding: 20px;
     background-color: bisque;
-    height: calc(100vh - 40px);
+    height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
-    width: 30%;
     max-width: 250px;
+    min-width: 150pxS;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
 }
+
 
 .layout > .side-nav > nav{
     display: flex;
@@ -32,8 +40,11 @@ body{
     padding: 20px;
     width: 60%;
     background-color: aquamarine;
-    height: calc(100vh - 40px) ;
+    height: 100vh ;
     overflow: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
 }
 
 .card-section{
@@ -41,13 +52,15 @@ body{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 12px;
+    justify-content: center;
 }
 
 .card-section > .card{
     background-color: aliceblue;
-    height: 120px;
-    width: calc(25% - 12px);
+    height: 150px;
+   flex-grow: 1;
+   flex-shrink: 1;
+   flex-basis: 200px;
 }
-
 
 
