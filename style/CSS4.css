@@ -1,15 +1,15 @@
-body {
+body{
     margin: 0;
 }
 
-.layout {
+.layout{
     display: flex;
     flex-direction: row;
 }
 
-.layout > .side-nav {
+.layout > .side-nav{
     padding: 20px;
-    background-color: lightcoral;
+    background-color: bisque;
     height: calc(100vh - 40px);
     overflow-y: auto;
     overflow-x: hidden;
@@ -17,34 +17,34 @@ body {
     max-width: 250px;
 }
 
-.layout > .side-nav > nav {
+.layout > .side-nav > nav{
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.layout > .side-nav > nav > a {
+.layout > .side-nav > nav > a{
     text-decoration: none;
     font-size: 20px;
 }
 
-.content {
-    padding: 20px 20px 20px 20px;
+.content{
+    padding: 20px;
     width: 60%;
-    background-color: rgb(140, 42, 165);
+    background-color: aquamarine;
     height: calc(100vh - 40px) ;
     overflow: auto;
 }
 
-.card-section {
+.card-section{
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 12px;
 }
 
-.card-section > .card {
-    background-color: lightpink;
+.card-section > .card{
+    background-color: aliceblue;
     height: 120px;
     width: calc(25% - 12px);
 }
