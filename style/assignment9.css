@@ -1,3 +1,11 @@
+.{
+    box-sizing: border-box;
+}
+
+.body{
+    margin: 0;
+}
+
 main{
     display: flex;
     flex: 1%;
@@ -19,6 +27,7 @@ main{
  display: flex;
  border: 1px solid black;   
  flex-direction: row;
+ flex-wrap: wrap;
  gap: 10px;
 padding: 10px;
 }
