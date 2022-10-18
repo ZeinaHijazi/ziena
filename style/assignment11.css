@@ -1,0 +1,41 @@
+.{
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 0;
+}
+
+.section{
+    display: flex;
+    max-width: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2px;
+}
+
+.col{
+    padding: 10px;
+    gap: 10px;
+}
+
+.link{
+    text-align: end;
+}
+
+.button{
+    border: none;
+}
