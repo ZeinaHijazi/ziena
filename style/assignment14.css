@@ -1,0 +1,617 @@
+.{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(9,1fr);
+    grid-template-areas: 
+    "child1 . . . . . . . . . . . . . . . . . child2"
+    "child3 child4 . . . . . . . . . . child5 child6 child7 child8 child9 child10"
+    "child11 child12 . . . . . . . . . . child13 child14 child15 child16 child17 child18"
+    "child19 child20 child21 child22 child23 child24 child25 child26 child27 child28 child29 child30 child31 child32 child33 child34 child35 child36"
+    "child37 child38 child39 child40 child41 child42 child43 child44 child45 child46 child47 child48 child49 child50 child51 child52 child53 child54"
+    "child55 child56 child57 child58 child59 child60 child61 child62 child63 child64 child65 child66 child67 child68 child69 child70 child71 child72"
+    "child73 child74 child75 child76 child77 child78 child79 child80 child81 child82 child83 child84 child85 child86 child87 child88 child89 child90"
+    ". . . . . . . . . . . . . . . . . ."
+    ". . . child91 child92 child93 child94 child95 child96 child97 child98 child99 child100 child101 child101 child103 child104 child105"
+    ". . . child106 child107 child108 child109 child110 child111 child112 child113 child114 child115 child116 child117 child118 child119 child120";
+    gap: 2px 2px;
+    height: 100vh;
+}
+
+.child1{
+    grid-area: child1;
+    background-color: pink;
+}
+
+.child2{
+    grid-area: child2;
+    background-color: navy;
+}
+
+.child3{
+    grid-area: child3;
+    background-color: orange;
+}
+
+.child4{
+    grid-area: child4;
+    background-color: yellow;
+}
+
+.child5{
+    grid-area: child5;
+    background-color: purple;
+}
+
+.child6{
+    grid-area: child6;
+    background-color: pink;
+}
+
+.child7{
+    grid-area: child7;
+    background-color: pink;
+}
+
+.child8{
+    grid-area: child8;
+    background-color: pink;
+}
+
+.child9{
+    grid-area: child9;
+    background-color: greenyellow;
+}
+
+.child10{
+    grid-area: child10;
+    background-color: navy;
+}
+
+.child11{
+    grid-area: child11;
+    background-color: orange;
+}
+
+.child12{
+    grid-area: child12;
+    background-color: yellow;
+}
+
+.child13{
+    grid-area: child13;
+    background-color: lightblue;
+}
+
+.child14{
+    grid-area: child14;
+    background-color: purple;
+}
+
+.child15{
+    grid-area: child15;
+    background-color: pink;
+}
+
+.child16{
+    grid-area: child16;
+    background-color: pink;
+}
+
+.child17{
+    grid-area: child17;
+    background-color: greenyellow;
+}
+
+.child18{
+    grid-area: child18;
+    background-color: navy;
+}
+
+.child19{
+    grid-area: child19;
+    background-color: orange;
+}
+
+.child20{
+    grid-area: child20;
+    background-color: yellow;
+}
+
+.child21{
+    grid-area: child21;
+    background-color: turquoise;
+}
+.child22{
+    grid-area: child22;
+    background-color: turquoise;
+}
+.child23{
+    grid-area: child23;
+    background-color: turquoise;
+}
+.child24{
+    grid-area: child124;
+    background-color: turquoise;
+}
+.child25{
+    grid-area: child25;
+    background-color: turquoise;
+}
+.child26{
+    grid-area: child26;
+    background-color: turquoise;
+}
+.child27{
+    grid-area: child27;
+    background-color: turquoise;
+}
+.child28{
+    grid-area: child28;
+    background-color: turquoise;
+}
+.child29{
+    grid-area: child29;
+    background-color: turquoise;
+}
+.child30{
+    grid-area: child30;
+    background-color: turquoise;
+}
+
+.child31{
+    grid-area: child31;
+    background-color: lightblue;
+}
+
+.child32{
+    grid-area: child32;
+    background-color: purple;
+}
+
+.child33{
+    grid-area: child33;
+    background-color: purple;
+}
+
+.child34{
+    grid-area: child34;
+    background-color: pink;
+}
+
+.child35{
+    grid-area: child35;
+    background-color: greenyellow;
+}
+
+.child36{
+    grid-area: child36;
+    background-color: navy;
+}
+
+.child37{
+    grid-area: child37;
+    background-color: orange;
+}
+
+.child38{
+    grid-area: child38;
+    background-color: yellow;
+}
+
+.child39{
+    grid-area: child39;
+    background-color: turquoise;
+}
+
+.child40{
+    grid-area: child40;
+    background-color: turquoise;
+}
+
+.child41{
+    grid-area: child41;
+    background-color: turquoise;
+}
+
+.child42{
+    grid-area: child42;
+    background-color: turquoise;
+}
+
+.child43{
+    grid-area: child43;
+    background-color: turquoise;
+}
+
+.child44{
+    grid-area: child44;
+    background-color: turquoise;
+}
+
+.child45{
+    grid-area: child45;
+    background-color: turquoise;
+}
+
+.child46{
+    grid-area: child46;
+    background-color: turquoise;
+}
+
+.child47{
+    grid-area: child47;
+    background-color: turquoise;
+}
+
+.child48{
+    grid-area: child48;
+    background-color: turquoise;
+}
+
+.child49{
+    grid-area: child49;
+    background-color: lightblue;
+}
+
+.child50{
+    grid-area: child50;
+    background-color: lightblue;
+}
+
+.child51{
+    grid-area: child51;
+    background-color: purple;
+}
+
+.child52{
+    grid-area: child52;
+    background-color: purple;
+}
+
+.child53{
+    grid-area: child53;
+    background-color: greenyellow;
+}
+
+.child54{
+    grid-area: child54;
+    background-color: navy;
+}
+
+.child55{
+    grid-area: child55;
+    background-color: orange;
+}
+
+.child56{
+    grid-area: child56;
+    background-color: yellow;
+}
+
+.child57{
+    grid-area: child57;
+    background-color: green;
+}
+
+.child58{
+    grid-area: child58;
+    background-color: turquoise;
+}
+
+.child59{
+    grid-area: child59;
+    background-color: turquoise;
+}
+
+.child60{
+    grid-area: child60;
+    background-color: turquoise;
+}
+
+.child61{
+    grid-area: child61;
+    background-color: turquoise;
+}
+
+.child62{
+    grid-area: child62;
+    background-color: turquoise;
+}
+
+.child63{
+    grid-area: child63;
+    background-color: turquoise;
+}
+
+.child64{
+    grid-area: child64;
+    background-color: turquoise;
+}
+
+.child65{
+    grid-area: child65;
+    background-color: turquoise;
+}
+
+.child66{
+    grid-area: child66;
+    background-color: turquoise;
+}
+
+.child67{
+    grid-area: child67;
+    background-color: lightblue;
+}
+
+.child68{
+    grid-area: child68;
+    background-color: lightblue;
+}
+
+.child69{
+    grid-area: child69;
+    background-color: lightblue;
+}
+
+.child70{
+    grid-area: child70;
+    background-color: purple;
+}
+
+.child71{
+    grid-area: child71;
+    background-color: greenyellow;
+}
+
+.child72{
+    grid-area: child72;
+    background-color: navy;
+}
+
+.child73{
+    grid-area: child73;
+    background-color: orange;
+}
+
+.child74{
+    grid-area: child74;
+    background-color: yellow;
+}
+
+.child75{
+    grid-area: child75;
+    background-color: red;
+}
+
+.child76{
+    grid-area: child76;
+    background-color: turquoise;
+}
+
+.child77{
+    grid-area: child77;
+    background-color: turquoise;
+}
+
+.child78{
+    grid-area: child78;
+    background-color: turquoise;
+}
+
+.child79{
+    grid-area: child79;
+    background-color: turquoise;
+}
+
+.child80{
+    grid-area: child80;
+    background-color: turquoise;
+}
+
+.child81{
+    grid-area: child81;
+    background-color: silver;
+}
+
+.child82{
+    grid-area: child82;
+    background-color: silver;
+}
+
+.child83{
+    grid-area: child83;
+    background-color: silver;
+}
+
+.child84{
+    grid-area: child84;
+    background-color: turquoise;
+}
+
+.child85{
+    grid-area: child85;
+    background-color: silver;
+}
+
+.child86{
+    grid-area: child86;
+    background-color: silver;
+}
+
+.child87{
+    grid-area: child87;
+    background-color: silver;
+}
+
+.child88{
+    grid-area: child88;
+    background-color: silver;
+}
+
+.child89{
+    grid-area: child89;
+    background-color: silver;
+}
+
+.child90{
+    grid-area: child90;
+    background-color: silver;
+}
+
+.child91{
+    grid-area: child91;
+    background-color: green;
+}
+
+.child92{
+    grid-area: child92;
+    background-color: green;
+}
+
+.child93{
+    grid-area: child93;
+    background-color: green;
+}
+
+.child94{
+    grid-area: child94;
+    background-color: green;
+}
+
+.child95{
+    grid-area: child95;
+    background-color: green;
+}
+
+.child96{
+    grid-area: child96;
+    background-color: green;
+}
+
+.child97{
+    grid-area: child97;
+    background-color: green;
+}
+
+.child98{
+    grid-area: child98;
+    background-color: green;
+}
+
+.child99{
+    grid-area: child99;
+    background-color: green;
+}
+
+.child100{
+    grid-area: child100;
+    background-color: green;
+}
+
+.child101{
+    grid-area: child101;
+    background-color: green;
+}
+
+.child102{
+    grid-area: child102;
+    background-color: green;
+}
+
+.child103{
+    grid-area: child103;
+    background-color: green;
+}
+
+.child104{
+    grid-area: child104;
+    background-color: green;
+}
+
+.child105{
+    grid-area: child105;
+    background-color: green;
+}
+
+.child106{
+    grid-area: child106;
+    background-color: red;
+}
+
+.child107{
+    grid-area: child107;
+    background-color: red;
+}
+
+.child108{
+    grid-area: child108;
+    background-color: red;
+}
+
+.child109{
+    grid-area: child109;
+    background-color: red;
+}
+
+.child110{
+    grid-area: child110;
+    background-color: red;
+}
+
+.child111{
+    grid-area: child111;
+    background-color: red;
+}
+
+.child112{
+    grid-area: child112;
+    background-color: red;
+}
+
+.child113{
+    grid-area: child113;
+    background-color: red;
+}
+
+.child114{
+    grid-area: child114;
+    background-color: red;
+}
+
+.child115{
+    grid-area: child115;
+    background-color: red;
+}
+
+.child116{
+    grid-area: child116;
+    background-color: red;
+}
+
+.child117{
+    grid-area: child117;
+    background-color: red;
+}
+
+.child118{
+    grid-area: child118;
+    background-color: red;
+}
+
+.child119{
+    grid-area: child119;
+    background-color: red;
+}
+
+.child120{
+    grid-area: child120;
+    background-color: red;
+}
