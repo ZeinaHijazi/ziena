@@ -1,0 +1,180 @@
+.{
+    box-sizing: border-box;}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    padding: 12px;
+    gap: 12px;
+}
+
+li{
+    padding: 12px;
+    gap: 12px;
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+}
+
+.col1{
+    background-color: aquamarine;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    width: 200px;
+    height: 200px
+}
+
+.col2{
+    background-color: aquamarine;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    width: 200px;
+    height: 200px;
+}
+
+.col3{
+    background-color: aquamarine;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+    width: 200px;
+    height: 200px
+}
+
+.parent{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    background-color:aqua;
+    width: 80px;
+    height: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 900px;
+    gap: 12px;
+    padding: 12px;
+    width: 400px;
+}
+
+.card1{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.card2{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.card3{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.card4{
+    border: 1px solid black;
+    flex-grow: 1;
+}
+
+.card5{
+    border: 1px solid black;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+.card6{
+    border: 1px solid black;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 80px;
+}
+
+.card7{
+    border: 1px solid black;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: 100px;
+}
+
+.card8{
+    border: 1px solid black;
+    flex-grow: 3;
+}
+
+.card9{
+    border: 1px solid black;
+    flex-grow: 3;
+}
+
+.card10{
+    border: 1px solid black;
+    flex-grow: 3;
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    max-width: 900px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.col{
+    flex: 1 1 150px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.flex-col{
+    margin: 10px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
+
+.flex-row{
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 150px;
+}
