@@ -13,6 +13,7 @@ ul{
     display: flex;
     padding: 12px;
     gap: 12px;
+    justify-content: space-around;
 }
 
 li{
@@ -95,11 +96,13 @@ li{
 .card3{
     border: 1px solid black;
     flex-grow: 1;
+    
 }
 
 .card4{
     border: 1px solid black;
     flex-grow: 1;
+   
 }
 
 .card5{
@@ -126,16 +129,19 @@ li{
 .card8{
     border: 1px solid black;
     flex-grow: 3;
+    
 }
 
 .card9{
     border: 1px solid black;
     flex-grow: 3;
+   
 }
 
 .card10{
     border: 1px solid black;
     flex-grow: 3;
+    
 }
 
 .element{
@@ -153,6 +159,7 @@ li{
 .row{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
     padding: 10px;
     border: 2px solid black;
