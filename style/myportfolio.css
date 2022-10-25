@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --white: #f0f0f0;
+    --light-blue: #3a6cf4;
+    --dark-blue: #000016;
+    --purple: #800080;
+}
+
+*{
+    font-family: 'poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: var(--white);
+    position: sticky;
+    top: 0;
+    padding: 1.2rem 3rem;
+}
+
+.header-content{
+    margin: auto;
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+}
+
+.logo{
+    color: var(--light-blue);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8rem;
+    display: block;
+}
+
+.navigation a{
+    color: var(--light-blue);
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 8px;
+}
+
+.navigation a:hover{
+    color: var(--purple);
+}
+
+main{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/img/port7.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    align-items: center;
+}
+
+.main > div{
+    padding: 1rem;
+}
+
+.main h2{
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.main span{
+    display: inline-block;
+    color: var(--light-blue);
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main h1{
+    color: var(--white);
+}
+
+.main-btn{
+    color: var(--white);
+    background-color: var(--light-blue);
+    border-radius: 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.8rem 1.2rem;
+    display: inline-block;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color: var(--light-blue);
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: var(--white);
+    font-size: 1.7rem;
+    margin-inline-start: 10px;
+}
+
+.title{
+    text-align: center;
+    color: var(--light-blue);
+    font-size: 1.8rem;
+    margin: 1rem 0 3rem;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    justify-content: center;
+}
+
+.cards{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card{
+    background-color: var(--white);
+    width: 300px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    padding: 24px;
+    border-radius: 8px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .icon{
+    color: var(--light-blue);
+    font-size: 8em;
+}
+
+.card-info h3{
+    color: var(--light-blue);
+}
+
+.projects-section{
+    background-color: var(--dark-blue);
+    padding: 6rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.projects-section > div{
+    max-width: 1000px;
+}
+
+.project-card{
+    background-color: var(--white);
+    border: 1px solid var(--white);
+    min-height: 160px;
+    width: 400px;
+    border-radius: 8px;
+    transition: 0.7s ease;
+}
+
+.project-card:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+.project-card-img img{
+    width: 100%;
+    max-height: 200px;
+    border-radius: 8px;
+}
+
+.project-card-info{
+    padding: 1rem;
+}
+
+.project-title{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+#contact{
+    padding: 3rem 0;
+}
+
+.footer{
+    background-color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+}
+
+.footer-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.footer-title span{
+    color: var(--light-blue);
+}
+
+@media (max-width: 1000px){
+    .main{
+        padding-left: 30px;
+    }
+    header{
+        padding: 1rem 1rem;
+    }
+    .project-card{
+        width: 320px;
+    }
+}
